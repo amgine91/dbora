@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document FORM details */
+#heading {
+	background-color:#fabe0b;
+	font:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#25690a;
+}
+#h {
+	margin-left:10px;
+}
+#C1 {
+	height:100px;
+	width:960;
+}
+.thumbnail {
+	height:80px;
+	width:100px;
+	margin-left:10px;
+	margin-top:10px;
+}
+/*------------*/
+#CRoom {
+  color: #FFF;
+  font-size:14px;
+  height:autopx;
+  float: left;
+  margin-top:10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#Room{
+  width:auto;
+  margin-left: 0px;
+  background-color: white;
+  /*border:1px solid black;*/
+}

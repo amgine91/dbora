@@ -1,0 +1,260 @@
+body {
+  background-image:url(../img/background.jpg);
+  background-repeat:repeat;
+  background: #fffff;
+  color: #333;
+  font-size: 11px;
+  height: auto;
+  /*padding-bottom: 20px;*/
+  margin:08px;
+}
+#bcksun {
+	background-image:url(../img/sun.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.container_12 {
+  /*background-image: url(../img/12_col.gif);*/
+}
+p{
+  /*border: 1px solid black;*/
+}
+#header{
+	/*box-shadow: 3px 3px 4px #000;*/
+	margin-top:26px;
+  	height:313px;
+ 	width:960px;
+  	background-repeat:no-repeat;
+  	background-position:center;
+}
+
+/*Main menu keys*/
+#nav_main{
+  margin-top: 281px;
+  font-size: 18px;
+  font-family:Tahoma;
+  color:#35ac01;
+}
+#nav_main ul, #nav_main li{
+  display: inline;
+  list-style-type: none;  
+}
+#nav_main li:hover{
+  color: #de6800;
+  cursor: pointer;
+}
+#nav_main ul{
+  padding-left: 1px;
+}
+.grid_12, grid_16{
+  width: 960px;
+}
+/*End of Main menu keys*/ 
+ 
+/*Packages & Promos*/
+.grid_12 #packages{
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#package {
+	/*box-shadow: 3px 3px 4px #000;*/
+	margin-top:0px;
+}
+.grid_12 #package{
+  width: 960px;
+  margin-left: 0px;
+  background-color: white;
+  border:1px solid black;
+}
+#packages .red{
+  color: red;
+  font-size:18px; 
+}
+#packages {
+  color: #de6800;
+  font-size: 12px;
+  height:220px;
+}
+/*See Details*/
+#detail{
+  font-size: 14px;
+  font-family:Tahoma;
+  color:#35ac01;
+  width:960px;
+  margin-left:20px;
+  text-align:center;
+}
+#detail p:hover{
+	color:#de6800;
+	cursor:pointer;
+}
+#detail p{
+  padding-left:1px;
+}
+#click p:hover{
+	color:#de6800;
+	cursor:pointer;
+}
+.details {
+  font-size: 14px;
+  font-family:Tahoma;
+  color:#35ac01;
+  width:220px;
+  text-align:center;
+}
+.packDesc{
+	height:123px;
+	overflow:hidden;	
+}
+#detail ul, #detail p{
+  display: inline;
+  list-style-type: none;  
+}
+/*End of packages*/
+/*Welcome to Discover Boracay*/
+#head {
+	margin-top:5px;
+}
+.grid_12 #head {
+	float: left;
+  	margin-left: 10px;
+  	margin-right: 10px;
+}
+#note {
+	font:tahoma;
+	font-size:14px;
+}
+#notebox {
+	margin-top:5px;
+	/*box-shadow: 3px 3px 4px #000;*/
+}
+.grid_12 #notebox {
+	margin-top:0px;
+	background-color:white;
+	width:960px;
+	border: 0px solid black;
+}
+#head .green {
+	font-size:20px;
+	color:#058a36;
+	font-family:tahoma;
+	font-weight:bold
+}
+/*End of Welcome notes*/
+#search{
+	margin-top:5px;
+	background-color:#fabe0b;
+	height: 52px;
+	/*box-shadow: 3px 3px 4px #000;*/
+}
+/*-----------------ACTIVITIES---------------------*/
+#hotelBox, #activitiesBox, #transpoBox {
+	margin-top:0px;
+	background-color: white;
+	height: 362px;
+	margin-bottom:0px;
+	/*box-shadow: 3px 3px 4px #000;*/
+	font:Arial;
+}
+#hotelBox #left, #activitiesBox #left, #transpoBox #left{
+	float: left;
+	width:624px;
+}
+#hotelBox #left #view, #activitiesBox #left #view, #transpoBox #left #view, #transpo, #list_hotels {
+	bottom: 36px;
+	float: right;
+	position: relative;
+	right: 8px;
+}
+#hotelBox #right, #activitiesBox #right, #transpoBox #right{
+	background-color:#FFF;
+	float: right;
+	width: 220px;
+	border: 1px solid #a78312;
+	margin-right: 5px;
+	margin-top: 5px;
+    /*height: 352px;*/
+	height: 350px;
+	box-shadow: 1px 1px 2px #000000;
+}
+#right #activities_title{
+  background-color: #fabe0b;
+  height: 30px;
+  font-family: arial;
+  font-size: 20px;
+  color: #06af45;
+  text-align: center;
+  border-bottom: 1px solid #a78312;
+}
+.rides {
+		margin-bottom: 5px;
+  display: none;
+  width: 960px;
+  min-height:400px;
+  background-color:#0c86c3;
+}
+.transportation{
+	display: none;
+	width: 960px;
+	height: 100px;
+	background:#0c86c3;  
+}
+/*------------------------------------------------*/
+.rooms {
+	width:960px;
+	/*height:100px;*/
+}
+/*------------------------------------------------*/
+.hotel{
+	margin-bottom: 5px;
+	display: none;
+	width: 960px;
+	min-height: 400px;
+    background-color:#0c86c3;
+}
+#hlist {
+	font-style:tahoma;
+	font-size:12px;
+	color:#25690a;
+}
+#content1 {
+	height:30px;
+	background-color:#fabe0b;
+}
+.f1 {
+	color:#FFF;
+	font:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:12px;
+}
+/*-----------------------------------------------*/  
+#footer{
+	margin-top:0px;
+  	background-image:url(img/footer.jpg);
+  	width:960px;
+  	height:190px;
+}
+#footer_nav{
+    color: white;
+    font-family:tahoma;
+    font-size: 16px;
+    margin-left: 272px;
+    margin-top: 12px;
+}
+#footer_nav ul, #footer_nav li{
+  display: inline;
+  list-style-type: none;
+  
+}
+
+#footer_nav ul{
+  padding-left: 1px;
+}
